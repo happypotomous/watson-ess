@@ -1,0 +1,737 @@
+{
+    "name": "Final-ESS",
+    "created": "2016-08-28T03:04:10.074Z",
+    "intents": [{
+        "intent": "Account_Management-Name_Change",
+        "created": "2017-01-04T03:05:17.178Z",
+        "updated": "2017-01-04T03:05:17.178Z",
+        "examples": [],
+        "description": null
+    }, {
+        "intent": "admissions_general",
+        "created": "2016-08-28T03:04:35.464Z",
+        "updated": "2016-09-08T12:15:06.515Z",
+        "examples": [{
+            "text": "He is studying under the O levels system in Bangladesh and wanted to learn more about what his admission requirements are. Any information on this matter would be appreciated.",
+            "created": "2016-09-08T12:05:30.012Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "Hi! I'm a high school student applying to UBC",
+            "created": "2016-08-28T03:04:51.996Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Hi I want to know more about how to apply to UBC",
+            "created": "2016-08-28T03:04:58.476Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "how do I apply to UBC?",
+            "created": "2016-08-28T03:05:04.428Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I heard about UBC and I am very interesting to applying in First Year Engineering\\",
+            "created": "2016-08-28T03:05:09.101Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "i'm currently a school student and i'm looking to apply to engineering at UBC. how do i go about the process?",
+            "created": "2016-08-28T03:05:16.575Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "i'm currently a student from Bangladesh. can i apply to ubc?",
+            "created": "2016-08-28T03:05:21.840Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "i'm currently in brazil and i would like to study in first year engineering. can i apply to first year engineering?",
+            "created": "2016-08-28T03:05:26.646Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "What are the application deadlines and application fees, if any?",
+            "created": "2016-09-08T12:15:06.515Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }],
+        "description": null
+    }, {
+        "intent": "notavailable_department",
+        "created": "2016-08-28T09:34:57.275Z",
+        "updated": "2016-09-08T11:55:06.093Z",
+        "examples": [{
+            "text": "Does UBC have a technology program available?",
+            "created": "2016-08-28T09:34:57.275Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Does UBC have certificate programs available?",
+            "created": "2016-08-28T09:34:57.275Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Does UBC provide technical certifications?",
+            "created": "2016-08-28T09:34:57.275Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Do you have a fire science department available?",
+            "created": "2016-08-28T09:34:57.275Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Do you have an Aerospace department available?",
+            "created": "2016-08-28T09:34:57.275Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I am Manura De Silva. From Srilanka. I would like to apply for Diploma in Aircraft Maintenance Engineering .",
+            "created": "2016-09-08T11:55:06.093Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }],
+        "description": null
+    }, {
+        "intent": "offtopic_class",
+        "created": "2016-09-08T11:23:00.171Z",
+        "updated": "2016-12-20T22:17:48.306Z",
+        "examples": [{
+            "text": "asdlkfjlafljadslf",
+            "created": "2016-09-08T11:23:11.409Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "as;duhf;alshf.khaw;eohfak.dsnf.dlsf",
+            "created": "2016-09-08T11:23:35.909Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "bogus hogus cocus focus",
+            "created": "2016-09-08T11:23:55.846Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "how do i buy 400 chickens",
+            "created": "2016-09-08T11:40:39.433Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "i need to get a lamp",
+            "created": "2016-12-20T22:17:39.969Z",
+            "updated": "2016-12-20T22:17:39.969Z"
+        }, {
+            "text": "lamp but 123 code",
+            "created": "2016-12-20T22:17:48.306Z",
+            "updated": "2016-12-20T22:17:48.306Z"
+        }, {
+            "text": "much would a wood chuck wood if a would chuck could chuck would",
+            "created": "2016-09-08T11:23:26.709Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "random stuff 123",
+            "created": "2016-09-08T11:23:50.135Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "this is totally random",
+            "created": "2016-09-08T11:23:43.935Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }],
+        "description": null
+    }, {
+        "intent": "Specific_Department",
+        "created": "2016-08-28T09:57:01.396Z",
+        "updated": "2016-08-28T09:57:01.396Z",
+        "examples": [{
+            "text": "How do I apply to the Mechanical Engineering program at UBC?",
+            "created": "2016-08-28T09:57:01.396Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "what are the requirements for the engineering physics program?",
+            "created": "2016-08-28T09:57:01.396Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "What are the requirements to apply engineering program at ubc?",
+            "created": "2016-08-28T09:57:01.396Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "What are the requirements to apply to the Chemical Engineering Program?",
+            "created": "2016-08-28T09:57:01.396Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "What do you need to apply to the civil engineering program at ubc?",
+            "created": "2016-08-28T09:57:01.396Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }],
+        "description": null
+    }, {
+        "intent": "third_year",
+        "created": "2016-08-28T08:28:25.518Z",
+        "updated": "2016-08-28T08:28:25.518Z",
+        "examples": [{
+            "text": "Is it possible to directly transfer into 3rd year engineering at UBC?",
+            "created": "2016-08-28T08:28:25.518Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "Is it possible to directly transfer into third year engineering at UBC?",
+            "created": "2016-08-28T08:28:25.518Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I want to transfer directly into 3rd year engineering.",
+            "created": "2016-08-28T08:28:25.518Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I want to transfer directly into third year engineering.",
+            "created": "2016-08-28T08:28:25.518Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "What is the procedure to transfer directly into 3rd year engineering at UBC?",
+            "created": "2016-08-28T08:28:25.518Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }],
+        "description": null
+    }, {
+        "intent": "transfer_question",
+        "created": "2016-08-28T03:06:02.462Z",
+        "updated": "2016-08-28T03:06:02.462Z",
+        "examples": [{
+            "text": "How do i transfer to UBC?",
+            "created": "2016-08-28T03:06:02.462Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I am a first year chemical engineering student in University of Sydney. I would like to transfer to UBC for my second year.",
+            "created": "2016-08-28T03:06:02.462Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "i currently study in College of New caledonia. I would like to transfer to UBC",
+            "created": "2016-08-28T03:06:02.462Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I'm currently in Science and I would like to transfer to UBC?",
+            "created": "2016-08-28T03:06:02.462Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }, {
+            "text": "I'm doing SFU Engineering (1st year) and if I wanted to transfer into UBC engineering is it possible and how",
+            "created": "2016-08-28T03:06:02.462Z",
+            "updated": "2016-11-29T18:22:07.502Z"
+        }],
+        "description": null
+    }, {
+        "intent": "tuition",
+        "created": "2016-09-08T12:17:19.228Z",
+        "updated": "2016-12-20T22:21:04.262Z",
+        "examples": [{
+            "text": "how much does it cost to go to ubc",
+            "created": "2016-12-20T22:21:04.262Z",
+            "updated": "2016-12-20T22:21:04.262Z"
+        }, {
+            "text": "How much does it cost to go to UBC?",
+            "created": "2016-09-09T10:32:04.194Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "I am wondering how much tuition and fees would be for the 3rd and 4th year of this program",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "I would also be really thankful to you if, you could provide me the list and requirement for a scholarship or financial aids available for students",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "what are the approximated tuition, accommodation and meal fees for the academic year of 2016-2017 for a national student",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "what are the tuition costs?",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "What is the ANNUAL cost of living, accomodation and food for one academic year?",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "What is the current ANNUAL tuition/ fees etc for one academic year",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }, {
+            "text": "what is the tuition",
+            "created": "2016-09-08T12:17:19.228Z",
+            "updated": "2016-11-29T18:28:26.932Z"
+        }],
+        "description": null
+    }],
+    "updated": "2017-01-04T03:05:29.881Z",
+    "entities": [{
+        "type": null,
+        "entity": "deadline",
+        "source": null,
+        "values": [{
+            "value": "deadline",
+            "created": "2016-08-28T09:24:26.765Z",
+            "updated": "2016-08-28T09:24:26.765Z",
+            "metadata": null,
+            "synonyms": ["final date", "last day"]
+        }],
+        "created": "2016-08-28T09:24:26.765Z",
+        "updated": "2016-08-28T09:24:26.765Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "department_notavailable",
+        "source": null,
+        "values": [{
+            "value": "Aeronautical Engineering",
+            "created": "2016-08-28T07:51:21.448Z",
+            "updated": "2016-08-28T07:51:21.448Z",
+            "metadata": null,
+            "synonyms": ["Aero"]
+        }, {
+            "value": "Aerospace Engineering",
+            "created": "2016-08-28T07:51:21.448Z",
+            "updated": "2016-08-28T07:51:21.448Z",
+            "metadata": null,
+            "synonyms": ["Aerospace"]
+        }],
+        "created": "2016-08-28T07:51:21.448Z",
+        "updated": "2016-08-28T07:51:21.448Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "Domestic_curriculums",
+        "source": null,
+        "values": [{
+            "value": "Canadian Curriculum",
+            "created": "2016-08-28T03:09:50.042Z",
+            "updated": "2016-08-28T03:09:50.042Z",
+            "metadata": null,
+            "synonyms": []
+        }],
+        "created": "2016-08-28T03:09:50.042Z",
+        "updated": "2016-08-28T03:09:50.042Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "etransfer_program",
+        "source": null,
+        "values": [{
+            "value": "Capilano University",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:38.807Z",
+            "metadata": null,
+            "synonyms": ["Capilano"]
+        }, {
+            "value": "College of New Caledonia",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:38.807Z",
+            "metadata": null,
+            "synonyms": ["Caledonia"]
+        }, {
+            "value": "Engineering Transfer Program",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:38.807Z",
+            "metadata": null,
+            "synonyms": ["Transfer Program"]
+        }, {
+            "value": "Langara College",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:38.807Z",
+            "metadata": null,
+            "synonyms": ["Langara"]
+        }, {
+            "value": "Selkrik College",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:59.236Z",
+            "metadata": null,
+            "synonyms": ["Selkrik"]
+        }, {
+            "value": "Thompson Rivers University",
+            "created": "2016-08-28T08:55:38.807Z",
+            "updated": "2016-08-28T08:55:49.750Z",
+            "metadata": null,
+            "synonyms": ["Thompson", "Thompson Rivers"]
+        }, {
+            "value": "University of the Fraser Valley",
+            "created": "2016-08-28T08:56:16.385Z",
+            "updated": "2016-08-28T08:56:16.385Z",
+            "metadata": null,
+            "synonyms": ["Fraser Valley"]
+        }],
+        "created": "2016-08-28T08:55:38.807Z",
+        "updated": "2016-08-28T08:55:38.807Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "faculty_specific",
+        "source": null,
+        "values": [{
+            "value": "Chemical Engineering",
+            "created": "2016-08-28T07:46:27.482Z",
+            "updated": "2016-08-28T07:48:44.934Z",
+            "metadata": null,
+            "synonyms": ["CHBE", "Chem", "Chemical"]
+        }, {
+            "value": "Civil Engineering",
+            "created": "2016-08-28T07:46:50.174Z",
+            "updated": "2016-08-28T07:46:58.719Z",
+            "metadata": null,
+            "synonyms": ["Civil"]
+        }, {
+            "value": "Engineering Physics",
+            "created": "2016-08-28T07:49:54.299Z",
+            "updated": "2016-08-28T07:49:54.299Z",
+            "metadata": null,
+            "synonyms": ["Eng Phys", "Fizz"]
+        }, {
+            "value": "Geological Engineering",
+            "created": "2016-08-28T07:48:58.517Z",
+            "updated": "2016-08-28T07:49:04.469Z",
+            "metadata": null,
+            "synonyms": ["GEO"]
+        }, {
+            "value": "Integrated Engineering",
+            "created": "2016-08-28T07:48:45.379Z",
+            "updated": "2016-08-28T07:48:45.379Z",
+            "metadata": null,
+            "synonyms": ["IGEN", "Integrated"]
+        }, {
+            "value": "Mechanical Engineering",
+            "created": "2016-08-28T07:46:39.326Z",
+            "updated": "2016-08-28T07:46:45.952Z",
+            "metadata": null,
+            "synonyms": ["MECH", "MECH 2", "Mechanical"]
+        }],
+        "created": "2016-08-28T07:46:27.482Z",
+        "updated": "2016-08-28T07:46:27.482Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "faculty_transfer",
+        "source": null,
+        "values": [{
+            "value": "The Faculty of Applied Science",
+            "created": "2016-08-28T07:24:38.245Z",
+            "updated": "2016-08-28T07:24:38.245Z",
+            "metadata": null,
+            "synonyms": ["Science"]
+        }, {
+            "value": "The Faculty of Commerce",
+            "created": "2016-08-28T07:24:38.245Z",
+            "updated": "2016-08-28T07:24:38.245Z",
+            "metadata": null,
+            "synonyms": ["Comm", "Commerce", "Sauder"]
+        }],
+        "created": "2016-08-28T07:24:38.245Z",
+        "updated": "2016-08-28T07:24:38.245Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "international_curriculums",
+        "source": null,
+        "values": [{
+            "value": "Advance Placement",
+            "created": "2016-08-28T03:09:24.452Z",
+            "updated": "2016-08-28T03:09:24.452Z",
+            "metadata": null,
+            "synonyms": ["AP"]
+        }, {
+            "value": "CBSE",
+            "created": "2016-08-28T03:09:24.452Z",
+            "updated": "2016-08-28T03:09:24.452Z",
+            "metadata": null,
+            "synonyms": []
+        }, {
+            "value": "International Baccalaureate",
+            "created": "2016-08-28T03:09:24.452Z",
+            "updated": "2016-08-28T03:09:24.452Z",
+            "metadata": null,
+            "synonyms": ["IB"]
+        }, {
+            "value": "O Levels",
+            "created": "2016-09-08T12:00:32.046Z",
+            "updated": "2016-09-08T12:00:32.046Z",
+            "metadata": null,
+            "synonyms": ["o level"]
+        }],
+        "created": "2016-08-28T03:09:24.452Z",
+        "updated": "2016-08-28T03:09:24.452Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "post_secondary",
+        "source": null,
+        "values": [{
+            "value": "credits",
+            "created": "2016-08-28T07:42:19.661Z",
+            "updated": "2016-08-28T07:42:19.661Z",
+            "metadata": null,
+            "synonyms": []
+        }, {
+            "value": "post secondary",
+            "created": "2016-08-28T07:26:02.074Z",
+            "updated": "2016-08-28T07:33:31.198Z",
+            "metadata": null,
+            "synonyms": ["BCIT", "college", "SFU", "university"]
+        }],
+        "created": "2016-08-28T07:26:02.074Z",
+        "updated": "2016-08-28T07:26:02.074Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "requirements",
+        "source": null,
+        "values": [{
+            "value": "requirements",
+            "created": "2016-08-28T09:44:44.112Z",
+            "updated": "2016-08-28T09:44:44.112Z",
+            "metadata": null,
+            "synonyms": []
+        }],
+        "created": "2016-08-28T09:44:44.112Z",
+        "updated": "2016-08-28T09:44:44.112Z",
+        "open_list": false,
+        "description": null
+    }, {
+        "type": null,
+        "entity": "third_Year",
+        "source": null,
+        "values": [],
+        "created": "2016-08-28T08:11:28.786Z",
+        "updated": "2016-08-28T08:11:28.786Z",
+        "open_list": false,
+        "description": null
+    }],
+    "language": "en",
+    "metadata": {
+        "runtime_version": "2016-09-20"
+    },
+    "description": null,
+    "dialog_nodes": [{
+        "go_to": null,
+        "output": {},
+        "parent": null,
+        "context": null,
+        "created": "2017-01-04T03:04:38.384Z",
+        "updated": "2017-01-04T03:05:29.881Z",
+        "metadata": null,
+        "conditions": "#Account_Management-Name_Change",
+        "description": null,
+        "dialog_node": "node_2_1483499077714",
+        "previous_sibling": "node_14_1472354982408"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "All the information you need related to UBC entry requirements is available at you.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T09:43:24.343Z",
+        "updated": "2016-08-28T09:54:15.081Z",
+        "metadata": null,
+        "conditions": "#admissions_general && @requirements",
+        "description": null,
+        "dialog_node": "node_1_1472377404188",
+        "previous_sibling": "node_1_1472376247467"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "Before students go into their preferred program, all students first go through a foundational first year engineering program. After they acquire a minimum of 27 credits that counts towards their first year Engineering, they will be eligible to apply to second year engineering. \n\nAdmission into a program of your choice won't be guaranteed. It would depend on your first year grades and a personal statement that you would have to submit"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T07:55:00.129Z",
+        "updated": "2016-08-28T10:01:16.886Z",
+        "metadata": null,
+        "conditions": "#Specific_Department",
+        "description": null,
+        "dialog_node": "node_3_1472370899884",
+        "previous_sibling": "node_1_1472374597962"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "(Faculty Answer) If you'd like to transfer to UBC Engineering, you will need a minimum of 27 credits that counts towards our program"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T07:29:42.581Z",
+        "updated": "2016-08-28T07:30:44.500Z",
+        "metadata": null,
+        "conditions": "#transfer_question && @faculty_transfer",
+        "description": null,
+        "dialog_node": "node_1_1472369382196",
+        "previous_sibling": "node_18_1472368959782"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "Hi! I'm Watson. The Engineering Help bot. What can I help you with today?"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T03:29:42.444Z",
+        "updated": "2017-01-04T03:03:29.289Z",
+        "metadata": null,
+        "conditions": "conversation_start",
+        "description": null,
+        "dialog_node": "node_14_1472354982408",
+        "previous_sibling": null
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "If you'd like to apply to UBC, you can start by going to you.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T09:03:09.877Z",
+        "updated": "2016-09-08T11:32:51.378Z",
+        "metadata": null,
+        "conditions": "#admissions_general",
+        "description": null,
+        "dialog_node": "node_3_1472374989671",
+        "previous_sibling": "node_1_1472377404188"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "If you'd like to learn more about the AP requirements at UBC: please visit this website - > www.engineering.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T03:33:28.163Z",
+        "updated": "2016-09-08T12:01:03.811Z",
+        "metadata": null,
+        "conditions": "@international_curriculums:(Advance Placement)",
+        "description": null,
+        "dialog_node": "node_17_1472355208202",
+        "previous_sibling": "node_3_1472374989671"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "If you'd like to learn more about the IB requirements at UBC: please visit this website - > www.engineering.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T03:30:33.278Z",
+        "updated": "2017-01-04T03:04:38.384Z",
+        "metadata": null,
+        "conditions": "@international_curriculums:(International Baccalaureate)",
+        "description": null,
+        "dialog_node": "node_16_1472355033449",
+        "previous_sibling": "node_2_1483499077714"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "If you'd like to learn more about the O Level requirements at UBC: please visit this website - > www.engineering.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-09-08T12:00:53.977Z",
+        "updated": "2016-09-08T12:01:12.388Z",
+        "metadata": null,
+        "conditions": "@international_curriculums:(O Levels)",
+        "description": null,
+        "dialog_node": "node_1_1473336046622",
+        "previous_sibling": "node_17_1472355208202"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "If you're currently enrolled in the Engineering transfer program, if you acquire a minimum GPA of 2.8, you will be considered for admission at UBC.\n\nWhen you submit your application to apply to transfer to UBC, make sure you specify that you're currently enrolled in an Engineering Transfer Program at your university"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T08:56:38.157Z",
+        "updated": "2016-09-08T12:00:53.977Z",
+        "metadata": null,
+        "conditions": "@etransfer_program",
+        "description": null,
+        "dialog_node": "node_1_1472374597962",
+        "previous_sibling": "node_1_1473336046622"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "I'm sorry I don't understand what you're saying. You can ask questions about transfer credits, first year programs etc. If you would like to get in touch with a human, please don't hesitate to contact Engineering Student Services at students.apsc.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-09-08T11:27:55.431Z",
+        "updated": "2016-09-08T11:33:19.799Z",
+        "metadata": null,
+        "conditions": "#offtopic_class",
+        "description": null,
+        "dialog_node": "node_1_1473334068153",
+        "previous_sibling": "node_5_1472372944508"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "I'm sorry I don't understand what you're saying. You can ask questions about transfer credits, first year programs etc. If you would like to get in touch with a human, please don't hesitate to contact Engineering Student Services at students@apsc.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T03:29:49.890Z",
+        "updated": "2016-09-08T11:28:08.001Z",
+        "metadata": null,
+        "conditions": "anything_else",
+        "description": null,
+        "dialog_node": "node_15_1472354990033",
+        "previous_sibling": "node_1_1473334068153"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "In order to transfer directly into second year engineering at UBC from the institution you're currently enrolled in, you would need a minimum of 27 credits that counts towards our first year Engineering program."
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T07:22:39.886Z",
+        "updated": "2016-08-28T09:42:11.019Z",
+        "metadata": null,
+        "conditions": "#transfer_question && @post_secondary || @post_secondary:credits",
+        "description": null,
+        "dialog_node": "node_18_1472368959782",
+        "previous_sibling": "node_2_1472376669416"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "In order to transfer directly into second year engineering at UBC from the institution you're currently enrolled in, you would need a minimum of 27 credits that counts towards our first year Engineering program."
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T09:31:09.555Z",
+        "updated": "2016-08-28T09:31:26.517Z",
+        "metadata": null,
+        "conditions": "#transfer_question",
+        "description": null,
+        "dialog_node": "node_2_1472376669416",
+        "previous_sibling": "node_3_1472370899884"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "The last day to apply to UBC Engineering will be the 31st of January, 2017. You can start your application by going to this link -> www.you.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T09:24:07.638Z",
+        "updated": "2016-09-28T03:07:56.283Z",
+        "metadata": null,
+        "conditions": "#admissions_general && @deadline",
+        "description": null,
+        "dialog_node": "node_1_1472376247467",
+        "previous_sibling": "node_16_1472355033449"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "Transferring directly into third is an option that is only available for students in the Camosun bridge program. However, there are still limited seats available for students wanting to directly transferring into third year engineering at UBC"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T08:29:04.727Z",
+        "updated": "2016-08-28T08:51:39.819Z",
+        "metadata": null,
+        "conditions": "#third_year",
+        "description": null,
+        "dialog_node": "node_5_1472372944508",
+        "previous_sibling": "node_2_1472370697217"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": "Unfortunately we don't have that program available at UBC. If you'd like more information about the programs available at UBC, please visit this link -> www.engineering.students.ubc.ca"
+        },
+        "parent": null,
+        "context": null,
+        "created": "2016-08-28T07:51:37.472Z",
+        "updated": "2016-09-08T11:20:05.469Z",
+        "metadata": null,
+        "conditions": "#notavailable_department",
+        "description": null,
+        "dialog_node": "node_2_1472370697217",
+        "previous_sibling": "node_1_1472369382196"
+    }],
+    "workspace_id": "6b6ce728-ff32-4a90-925c-29c2e76e8324",
+    "counterexamples": []
+}
